@@ -3,3 +3,5 @@
 Mais uma alteração feita directamente no github remoto 
 
 Assim, sim. Entendi.
+
+maintenant, oui. j' ai compris, merci beaucoup professeur Guanabara.
