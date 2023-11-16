@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site celebridades</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="topo">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Sobre</a>
+            </li>
+            <li>
+                <a href="#">Contactos</a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="container">
+        <section class="sec-1">
+            <h1>Celebridade </h1>
+          
+                <div  >
+                    <picture>
+                        <p>                 
+                    <img id="msg" src="pexels-photo-4241706.webp" alt="" srcset="">
+                        </p>
+                </picture>
+         
+                </div>
+
+            
+        </section>
+        <section class="sec-2">
+            <h1>Vida dos famosos</h1>
+           
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum voluptate delectus inventore enim nisi reiciendis! Veritatis, expedita voluptas aliquam, veniam voluptates necessitatibus nostrum quae totam labore soluta quia delectus assumenda!
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum voluptate delectus inventore enim nisi reiciendis! Veritatis, expedita voluptas aliquam, veniam voluptates necessitatibus nostrum quae totam labore soluta quia delectus assumenda!
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum voluptate delectus inventore enim nisi reiciendis! Veritatis, expedita voluptas aliquam, veniam voluptates necessitatibus nostrum quae totam labore soluta quia delectus assumenda!
+            </p>
+
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+
+        <ul> 
+            <li>
+                <a href="http://facebook.com/josenzinga.baptista" target="_blank"><img class="msg" src="Facebook.png" alt=""></a>
+            </li>
+         
+            <li>
+                <a href="http://whatsApp.com/josenzinga.baptista" target="_blank"><img class="msg" src="whatsApp.png" alt=""></a>
+            </li>
+        
+            <li>
+                <a href="http://instagram.com/josenzinga.baptista" target="_blank"><img class="msg" src="intagram.jpg" alt=""></a>
+            </li>
+        </ul>
+        <div class="rodape-1">
+            <div class="roda">
+                <p>
+                    <a href="#">Serviços</a>
+                </p>
+            </div>
+            <div class="roda">
+                <p>
+                    <a href="#">Aconselhamento</a>
+                </p>
+            </div>
+            <div class="roda">
+                <p>
+                <a href="#">Marque sua consuta</a>
+                </p>
+            </div>
+
+
+        </div>
+        
+            
+       
+    </footer>
+    <script>
+        
+
+        var img = document.getElementById('msg')
+        img.addEventListener('mouseover', exibir)
+        img.addEventListener ('mouseout', sair)
+
+        function exibir (){
+           
+            img.innerText = 'Olá!'
+        }
+        function sair (){
+            img.innerText = 'Saiu'
+        }
+    </script>
+    
+</body>
+</html>
